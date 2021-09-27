@@ -13,7 +13,7 @@ class Filters extends React.Component {
     // }
 
     openGithub = () => {
-        window.open("https://github.com/s1varam/pokedex");
+        window.open("https://github.com/micahlanham/Poke.git");
     }
 
     render() {

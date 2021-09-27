@@ -3,7 +3,7 @@ import React from 'react';
 class Loading extends React.Component {
 
     openGithub = () => {
-        window.open("https://github.com/s1varam/pokedex");
+        window.open("https://github.com/micahlanham/Poke.git");
     }
 
     render() {
@@ -12,9 +12,6 @@ class Loading extends React.Component {
                 <div className="app__container">
                     <div className="loading__text">
                         Loading
-                    </div>
-                    <div className="gif__container">
-                        <img src="https://i.gifer.com/VgI.gif" className="loading__gif noselect" alt="loading-gif"></img>
                     </div>
                 </div>
             </>
