@@ -145,8 +145,7 @@ class App extends React.Component {
             })
         }
 
-        // console.log("allPokes");
-        // console.log(this.state.allPokemons);
+        
 
     }
 
@@ -156,19 +155,12 @@ class App extends React.Component {
         })
     }
 
-    // fetchEvoChainURL = async (pokemon_name) => {
-    //     // debugger
-
-    //     const response = await axios.get(`https://pokeapi.co/api/v2/pokemon-species/${pokemon_name}`).catch((err) => console.log("Error:", err));
-    //     this.fetchEvoDetails(response.data.evolution_chain.url);
-    //     console.log(response);
-
-    // }
+        
 
     fetchEvoDetails = async (url) => {
-        // debugger
+        
         const response = await axios.get(url).catch((err) => console.log("Error:", err));
-        // console.log(response);
+        
 
 
         const evoChain = [];
@@ -187,8 +179,7 @@ class App extends React.Component {
             evoData = evoData['evolves_to'][0];
         } while (!!evoData && evoData.hasOwnProperty('evolves_to'));
 
-        // console.log("evochain");
-        // console.log(evoChain);
+        
 
         this.fetchEvoImages(evoChain);
 

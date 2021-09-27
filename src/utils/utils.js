@@ -1,6 +1,6 @@
 export const colorTypeGradients = (type1, type2, length) => {
 
-    // debugger
+    
     let color1, color2;
 
     switch (type1) {
