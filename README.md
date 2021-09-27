@@ -45,6 +45,7 @@ Demo gif
 
 - [Scroll to top](https://juliapottinger.com/react-gatsby-scroll-to-top/)
 - [Beautiful icons of Pokemon types](https://github.com/duiker101/pokemon-type-svg-icons)
+- https://github.com/s1varam/pokedex.git 
 
 ##
 
