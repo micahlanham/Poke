@@ -6,9 +6,9 @@ class Header extends React.Component {
 
     changeTheme = () => {
 
-        // debugger
+        
         const currentTheme = document.documentElement.getAttribute('data-theme');
-        // console.log(currentTheme);
+        
 
         let targetTheme = "light";
 
@@ -19,7 +19,7 @@ class Header extends React.Component {
                 isChecked: true,
             })
 
-            // console.log(targetTheme);
+            
         } else {
             this.setState({
                 isChecked: false,

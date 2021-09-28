@@ -238,7 +238,7 @@ class App extends React.Component {
             genera: "",
         })
 
-        // this.fetchEvoChainURL(pokemon);
+        
         this.fetchPokemonDescription(pokemon);
 
     }
@@ -252,7 +252,7 @@ class App extends React.Component {
         this.fetchEvoDetails(response.data.evolution_chain.url);
 
         try {
-            // const response = await axios.get(`https://pokeapi.co/api/v2/pokemon-species/${pokemon_name}`).catch((err) => console.log("Error:", err));
+            
 
             for (let i = 0; i < response.data.flavor_text_entries.length - 1; i++) {
                 if (response.data.flavor_text_entries[i].language.name === "en") {
